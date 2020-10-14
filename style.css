@@ -1,0 +1,102 @@
+
+li{
+  float: left;
+}
+  .column{
+      width: 25%;
+      float: left;
+      padding: 18px;
+      border-style: none;
+      background-color:palegoldenrod;
+  }
+  
+  .link_git{
+      text-decoration: none;
+      color: red;
+  }
+  .link_git:hover{
+      color: green;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0%;
+    font-size: 20px;
+    width: 20%;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.navbar a.active{
+  background-color: green;
+  color: white;
+}
+table,th,td{
+  border: 3px solid rgba(16, 187, 164, 0.712);
+  text-align: center;
+  color: white;
+
+}
+.lt_gt{
+    color: red;
+}
+hr{
+  border: solid red 1px;
+}
+pre{
+  border: 0px;
+}
+.sidenav {
+  overflow-x: hidden;
+  background-color:rgba(7, 1, 1, 0.795) ;
+  position: fixed;
+  width: 13%;
+  height: 70%;
+}
+
+.sidenav a {
+  float: left;
+  display: block;
+  color: rgb(230, 133, 7);
+  text-align: left;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0%;
+  font-size: 20px;
+  width: 100%;
+}
+
+.sidenav a:hover {
+  background: #ddd;
+  color: black;
+}
+.sidenav a.active{
+background-color: green;
+color: white;
+}
+pre.sidenav_data{
+  margin-left: 22%;
+}
+.footer{
+background-color: black;
+color: white;
+padding: 13px;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
